@@ -31,6 +31,8 @@
 
     ytmdesktop
 
+    just
+
     uv
     # ty
     # ruff

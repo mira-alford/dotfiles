@@ -63,6 +63,24 @@
     outputs."DP-3".mode.width = 3840;
     outputs."DP-3".mode.refresh = 120.000;
 
+    # outputs."Dell Inc. DELL U3225QE 5TD4834" = {
+    outputs."DP-4" = {
+      mode.width = 3840;
+      mode.height = 2160;
+      mode.refresh = 120.000;
+      position.x = 0;
+      position.y = 0;
+    };
+
+    outputs."BOE 0x0BC9 Unknown" = {
+      scale = 1.2;
+      mode.width = 2560;
+      mode.height = 1600;
+      mode.refresh = 165.000;
+      position.x = 0;
+      position.y = 1729;
+    };
+
     environment = {
       QT_QPA_PLATFORM = "wayland";
       DISPLAY = ":0";
