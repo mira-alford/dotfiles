@@ -56,7 +56,7 @@
         alwaysAnimate.enable = true;
         betterSettings.enable = true;
         betterUploadButton.enable = true;
-        clearURLs.enable = true;
+        # clearURLs.enable = true;
         disableCallIdle.enable = true;
         favoriteEmojiFirst.enable = true;
         favoriteGifSearch.enable = true;
@@ -67,7 +67,7 @@
         noOnboardingDelay.enable = true;
         noProfileThemes.enable = true;
         # noRPC.enable = false;
-        onePingPerDM.enable = true;
+        # onePingPerDM.enable = true;
         plainFolderIcon.enable = true;
         stickerPaste.enable = true;
         voiceChatDoubleClick.enable = true;

@@ -53,6 +53,13 @@ with config.lib.stylix.colors;
         ];
       }
       {
+        name = "nushell";
+        auto-format = true;
+        formatter.command = "nufmt";
+        scope = "source.nu";
+        file-types = [ "nu" ];
+      }
+      {
         name = "typst";
         auto-format = true;
         formatter.command = "${pkgs.typstyle}/bin/typstyle";

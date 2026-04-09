@@ -74,7 +74,7 @@
 
     # jetbrains.rust-rover
 
-    zotero_7
+    zotero
 
     evince
     xorg.xhost
@@ -118,8 +118,8 @@
     xorg.libXxf86vm
     nautilus-open-any-terminal
     dnsmasq
-    wineWowPackages.stable
-    winetricks
+    # wineWowPackages.stable
+    # winetricks
     polkit
     qsynth
     radeontop
