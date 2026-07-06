@@ -163,12 +163,16 @@
       "Mod+Ctrl+K".action = move-column-to-workspace-up;
       "Mod+Ctrl+J".action = move-column-to-workspace-down;
       # Resizing Windows:
-      "Mod+Minus".action = set-column-width "-5%";
-      "Mod+Equal".action = set-column-width "+5%";
-      "Mod+Plus".action = set-column-width "+5%";
-      "Mod+Shift+Minus".action = set-window-height "-5%";
-      "Mod+Shift+Equal".action = set-window-height "+5%";
-      "Mod+Shift+Plus".action = set-window-height "+5%";
+      "Mod+Minus".action = set-column-width "-25%";
+      "Mod+Equal".action = set-column-width "+25%";
+      "Mod+Plus".action = set-column-width "+25%";
+      # "Mod+[".action = set-column-width "-5%";
+      # "Mod+]".action = set-column-width "+5%";
+      "Mod+Shift+Minus".action = set-window-height "-25%";
+      "Mod+Shift+Equal".action = set-window-height "+25%";
+      "Mod+Shift+Plus".action = set-window-height "+25%";
+      # "Mod+Shift+[".action = set-column-width "-5%";
+      # "Mod+Shift+]".action = set-column-width "+5%";
       # Workspace Navigation:
       "Mod+1".action = focus-workspace 1;
       "Mod+2".action = focus-workspace 2;

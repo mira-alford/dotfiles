@@ -52,13 +52,13 @@ with config.lib.stylix.colors;
           # "jedi"
         ];
       }
-      {
-        name = "nushell";
-        auto-format = true;
-        formatter.command = "nufmt";
-        scope = "source.nu";
-        file-types = [ "nu" ];
-      }
+      # {
+      #   name = "nushell";
+      #   auto-format = true;
+      #   formatter.command = "nufmt";
+      #   scope = "source.nu";
+      #   file-types = [ "nu" ];
+      # }
       {
         name = "typst";
         auto-format = true;
