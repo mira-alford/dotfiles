@@ -41,11 +41,11 @@
     helix.url = "github:helix-editor/helix/2cadec0";
     ags.url = "github:Aylur/ags";
     base16.url = "github:SenchoPens/base16.nix";
-    base16-helix.url = "github:McArthur-Alford/base16-helix";
-    base16-helix.flake = false;
+    # base16-helix.url = "github:McArthur-Alford/base16-helix";
+    # base16-helix.flake = false;
     # stylix.url = "github:danth/stylix/ed91a20c84a80a525780dcb5ea3387dddf6cd2de";
     stylix.url = "github:danth/stylix";
-    stylix.inputs.base16-helix.follows = "base16-helix";
+    # stylix.inputs.base16-helix.follows = "base16-helix";
     sops-nix.url = "github:Mic92/sops-nix";
     peerix = {
       url = "github:cid-chan/peerix";
@@ -66,16 +66,6 @@
     vintagestory-nix.url = "github:PierreBorine/vintagestory-nix";
     disko.url = "github:nix-community/disko/latest";
     disko.inputs.nixpkgs.follows = "nixpkgs";
-
-    quickshell = {
-      url = "github:outfoxxed/quickshell";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
-    noctalia = {
-      url = "github:noctalia-dev/noctalia-shell";
-      inputs.nixpkgs.follows = "nixpkgs";
-      inputs.quickshell.follows = "quickshell";
-    };
   };
 
   outputs =

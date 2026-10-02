@@ -1,10 +1,10 @@
 { pkgs, ... }:
 {
   users.groups.usb = { };
-  users.users."mcarthur" = {
+  users.users."mira" = {
     shell = pkgs.nushell; # cannot be set in home manager! very sad
     isNormalUser = true;
-    description = "mcarthur";
+    description = "mira";
     initialPassword = "password";
     extraGroups = [
       "networkmanager"

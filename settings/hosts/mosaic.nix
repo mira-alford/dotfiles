@@ -2,9 +2,9 @@
   hostname = "mosaic";
   system = "x86_64-linux";
   kernel = "latest";
-  users = [ "mcarthur" ];
+  users = [ "mira" ];
   stateVersion = "22.11";
-  trustedUsers = [ "mcarthur" ];
+  trustedUsers = [ "mira" ];
   nixPath = "/etc/nixos";
   misc = { };
 }

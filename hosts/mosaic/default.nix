@@ -34,7 +34,10 @@
   services.automatic-timezoned.enable = true;
 
   networking = {
-    networkmanager.enable = true;
+    networkmanager = {
+      enable = true;
+      plugins = [ pkgs.networkmanager-openvpn ];
+    };
     firewall = {
       enable = true;
       allowedTCPPorts = [
@@ -65,6 +68,7 @@
       kochi-substitute
       source-code-pro
       ttf_bitstream_vera
+      eduvpn-client
     ];
 
     fontconfig.defaultFonts = {

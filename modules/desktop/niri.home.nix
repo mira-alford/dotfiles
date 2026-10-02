@@ -189,6 +189,8 @@
       "Mod+Ctrl+Shift+K".action = move-workspace-up;
       # Floating Windows:
       "Mod+G".action = toggle-window-floating;
+      # Spawn btop floating
+      "Mod+B".action = spawn "btop";
     };
   };
 }
